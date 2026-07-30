@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consorcio DC | Constructora en Venezuela</title>
+  <meta name="description" content="Consorcio DC es una empresa constructora venezolana especializada en viviendas, oficinas, locales comerciales, centros empresariales y desarrollo inmobiliario.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===================== HEADER / NAVEGACIÓN ===================== -->
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <img src="assets/logo-consorcio-dc.png" alt="Logo Consorcio D.C." class="brand-logo">
+      <span class="brand-name">Consorcio D.C.</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false" data-menu-button>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" data-nav>
+      <a href="#empresa">Empresa</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#proximos">Próximos proyectos</a>
+      <a href="#bienes-raices">Bienes Raíces</a>
+      <a href="#contacto" class="nav-cta">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <h1>Construimos espacios para vivir, trabajar e invertir.</h1>
+        <p class="hero-text">En Consorcio D.C. desarrollamos proyectos residenciales, comerciales y empresariales con más de 40 años de trayectoria en Venezuela. Cada obra combina planificación, calidad y una ejecución responsable, pensada para perdurar a través de generaciones.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+          <a class="button button-secondary" href="https://wa.me/584244100346" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PARTE DE LA FAMILIA (galería) ===================== -->
+    <section class="feature" id="familia">
+      <div class="feature-text">
+        <h2>Un equipo con mucho talento</h2>
+        <p>Nuestro equipo cuenta con profesionales con mucha experiencia, representamos desarrollo, innovación y perseverancia.</p>
+        <p>Cada proyecto que emprendemos lleva ese sello de calidad: cercanía, compromiso y vocación.</p>
+        <a class="button button-outline" href="#empresa">Conócenos</a>
+      </div>
+      <div class="feature-gallery">
+        <div class="feature-slides" data-feature-slides></div>
+        <div class="feature-nav">
+          <button type="button" data-feature-prev aria-label="Anterior">&larr;</button>
+          <span data-feature-count>1 | 1</span>
+          <button type="button" data-feature-next aria-label="Siguiente">&rarr;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EMPRESA / QUIÉNES SOMOS ===================== -->
+    <section class="intro section-pad" id="empresa">
+      <div>
+        <p class="eyebrow">Quiénes somos</p>
+        <h2>Una empresa familiar con experiencia en desarrollo y construcción.</h2>
+      </div>
+      <div class="intro-text">
+        <p>Consorcio D.C. nace de una historia familiar vinculada al desarrollo inmobiliario y a la construcción en Venezuela. La empresa situada en Valencia combina mas de 40 años de experiencia, visión y compromiso con proyectos que perduran en el tiempo.</p>
+        <p>Trabajamos para transformar ideas en espacios concretos, acompañando cada etapa del proyecto con planificación, comunicación y atención al detalle. Desde la primera vez que nos contactes hasta la entrega final.</p>
+        <p>Nuestra trayectoria abarca conjuntos residenciales, centros comerciales, oficinas y complejos empresariales en distintos estados de Venezuela.</p>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICIOS ===================== -->
+    <section class="services section-pad" id="servicios">
+      <div class="section-heading">
+        <p class="eyebrow">Servicios</p>
+        <h2>Soluciones para cada etapa del proyecto.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span>01</span><h3>Viviendas</h3><p>Desarrollo y construcción de townhouses, casas y apartamentos para proyectos residenciales, con métodos modernos y eficiente.</p></article>
+        <article class="service-card"><span>02</span><h3>Oficinas y locales</h3><p>Espacios comerciales y profesionales diseñados para operar, crecer y generar valor, adaptados a las necesidades de cada cliente.</p></article>
+        <article class="service-card"><span>03</span><h3>Centros empresariales</h3><p>Proyectos de mayor escala con áreas comerciales, oficinas, galpones y servicios complementarios, planificados para el largo plazo.</p></article>
+        <article class="service-card"><span>04</span><h3>Gestión de proyecto</h3><p>Acompañamiento desde la planificación hasta la ejecución, con foco en orden, control de calidad y resultados que cumplen lo prometido.</p></article>
+      </div>
+    </section>
+
+    <!-- ===================== PROYECTOS (con tabs) ===================== -->
+    <section class="projects section-pad" id="proyectos">
+      <div class="section-heading section-heading-row">
+        <div>
+          <p class="eyebrow">Portafolio</p>
+          <h2>Proyectos realizados y en desarrollo.</h2>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Filtrar proyectos">
+          <button class="tab is-active" type="button" data-filter="Todos">Todos</button>
+          <button class="tab" type="button" data-filter="Ejecutados">Ejecutados</button>
+          <button class="tab" type="button" data-filter="En desarrollo">En desarrollo</button>
+          <button class="tab" type="button" data-filter="Por iniciar">Por iniciar</button>
+        </div>
+      </div>
+      <div class="project-grid" data-project-grid></div>
+    </section>
+
+    <!-- ===================== PRÓXIMOS PROYECTOS ===================== -->
+    <section class="upcoming section-pad" id="proximos">
+      <div class="section-heading">
+        <p class="eyebrow">Próximos proyectos</p>
+        <h2>Conceptos</h2>
+      </div>
+      <div class="upcoming-list" data-upcoming-list></div>
+    </section>
+
+    <!-- ===================== TU CASA BIENES RAÍCES ===================== -->
+    <section class="realestate section-pad" id="bienes-raices">
+      <div class="realestate-card">
+        <p class="eyebrow">Bienes raíces</p>
+        <h2>¿Buscas apartamentos en proyectos ya terminados?</h2>
+        <p>Si estás interesado en apartamentos o en proyectos ya terminados, contacta a nuestra bienes-raices <strong>TuCasa Bienes Raíces</strong>, el puente a tu patrimonio seguro en Valencia.</p>
+        <a class="button button-primary" href="https://wa.me/584244588557" target="_blank" rel="noopener">Contactar a Tu Casa Bienes Raíces</a>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section class="contact section-pad" id="contacto">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos de tu próximo proyecto.</h2>
+        <p>Para consultas, reuniones o información comercial, contáctanos directamente.</p>
+      </div>
+      <div class="contact-card">
+        <p><strong>Dirección</strong><br>C.C. Otama, piso 1, oficina 15, Valencia, Venezuela</p>
+        <p><strong>Teléfono</strong><br><a href="tel:+584244100346">+58 424 4100346</a></p>
+        <p><strong>WhatsApp</strong><br><a href="https://wa.me/584244100346" target="_blank" rel="noopener">Enviar mensaje</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div>
+      <img src="assets/logo-consorcio-dc.png" alt="Logo Consorcio D.C." class="footer-logo">
+      <p>Consorcio D.C. · Constructora venezolana.</p>
+    </div>
+    <p>&copy; <span data-year></span> Consorcio D.C. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
