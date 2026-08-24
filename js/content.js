@@ -51,7 +51,7 @@ const SITE_CONTENT = {
       "category": "En desarrollo",
       "type": "Vivienda unifamiliar · Apartamentos",
       "meta": "76 viviendas · 75 m² y 85 m² · Naguanagua, Edo. Carabobo",
-      "status": "50% ejecutado",
+      "status": "70% ejecutado",
       "year": "En desarrollo",
       "image": "proyecto-06.jpg"
     },
