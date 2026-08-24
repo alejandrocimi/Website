@@ -8,11 +8,11 @@
 
 :root {
   /* 🎨 Colores (edita aquí para cambiar toda la web) */
-  --color-primary: #0E2341;       /* Verde principal */
-  --color-primary-dark: #081528;  /* Verde oscuro */
+  --color-primary: #101418;       /* Verde principal */
+  --color-primary-dark: #101418;  /* Verde oscuro */
   --color-accent: #F5F7FA;        
   --color-sand: #F5F7FA;          
-  --color-white: #ffffff;
+  --color-white: #F5F7FA;
   --color-text: #101418;
   --color-muted: #5E6B78;
 
