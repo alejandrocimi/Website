@@ -140,9 +140,6 @@ const SITE_CONTENT = {
   "upcoming": [
     "Villas del Prado · 49 viviendas de 300 m² · Guataparo, Valencia",
     "C.C Teatro La Granja · Centro comercial, oficinas y hotel · La Granja, Naguanagua",
-    "Villas El Colonial · 150 viviendas de 130 m² · San Diego",
-    "Centro Comercial y Profesional San Ignacio · Centro comercial, oficinas y hotel · San Diego",
-    "Centro Médico San Ignacio · Clínica y consultorios · San Diego",
     "Residencias 1111 · 80 apartamentos de 107 m² · El Parral, Valencia",
     "Residencias El Parque 4 · 40 apartamentos de 165 m² · Los Mangos, Valencia"
   ],
